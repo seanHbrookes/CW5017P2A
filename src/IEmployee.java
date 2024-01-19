@@ -1,5 +1,3 @@
-package comp5017.cw1.pkg2023; // or whatever
-
 /**
  *
  * @author D Lightfoot 2023-09

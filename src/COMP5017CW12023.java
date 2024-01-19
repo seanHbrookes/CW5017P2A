@@ -1,5 +1,3 @@
-package comp5017.cw1.pkg2023;
-
 import java.util.*;
 import java.io.*;
 import java.io.FileInputStream;
@@ -14,7 +12,7 @@ import javax.swing.*;
 public class COMP5017CW12023 {
 
     static Scanner kb;
-    static IStaffDB db = new StaffHash(); // change to StaffBST for Assignment 2
+    static IStaffDB db = new StaffBST(); // change to StaffBST for Assignment 2
 
     private static String readNonEmpty() {
         // read non-null, non-empty string;
